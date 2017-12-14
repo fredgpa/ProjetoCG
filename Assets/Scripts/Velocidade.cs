@@ -8,6 +8,8 @@ public class Velocidade : MonoBehaviour {
     public float velocidade = 0;
     Vector3 ultimaPos = Vector3.zero;
 
+
+
 	// Use this for initialization
 	void Start () {
         carro = GameObject.Find("Car");
@@ -15,6 +17,7 @@ public class Velocidade : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
         velocidade = carro.GetComponent<Rigidbody>().velocity.magnitude * 3.6f;
     }
 }
