@@ -8,7 +8,6 @@ public class Velocimetro : MonoBehaviour {
     
     private void Start()
     {
-        carro = GameObject.Find("Car");
     }
 
 
