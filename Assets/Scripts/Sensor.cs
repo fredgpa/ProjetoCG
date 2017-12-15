@@ -19,7 +19,6 @@ public class Sensor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (!Physics.Linecast(Receptor1.transform.position, Receptor2.transform.position, mascaraPlayer))
-            Debug.Log("passei");
+        //if (!Physics.Linecast(Receptor1.transform.position, Receptor2.transform.position, mascaraPlayer))
 	}
 }
